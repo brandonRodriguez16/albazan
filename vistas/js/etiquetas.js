@@ -242,8 +242,14 @@ function operar() {
         bindElementInTintaRow();
         return count;
       }
+
+
+      function eliminarFila(row) {
+        row.remove();
       
-  
+      }
+      
+      
       function bindElementInTintaRow() {
         $(".select-tipoTinta").unbind("change");
         $(".select-tipoTinta").bind("change", function () {

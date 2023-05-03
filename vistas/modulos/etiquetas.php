@@ -4,8 +4,6 @@
 
 ?>
 
-
-
 <script type="text/javascript">
 </script>
 
@@ -227,7 +225,7 @@
                     Costo Tinta 
                     <input type="text" id="CostoTinta" readonly style="width:75px;"/>
                     
-                    <input type="submit" value="x" style="background-color:red;color:white;">
+                    <input type="submit" value="x" style="background-color:red;color:white;" onclick="eliminarFila(this.parentNode.parentNode)" >
                 </div>
                 
             </div>
